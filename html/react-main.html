@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>React</title>
+  <link rel="stylesheet" href="../css/react-main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-top-block">
+      Black Lives Matter. <a href="#">Support the Equal Justice Initiative.</a>
+    </div>
+    <div class="header-table wrapper-class-for-floats">
+      <div class="header-table-cell-main-nav">
+        <table>
+          <tbody>
+          <tr>
+            <td>
+              <a href="https://uk.reactjs.org/" class="header-logo-link">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+                     alt="logo" width="40" height="40">
+                React
+              </a>
+            </td>
+            <td>
+              <nav class="header-nav">
+                <a href="https://uk.reactjs.org/docs/getting-started.html">Документація</a>
+                <a href="https://uk.reactjs.org/tutorial/tutorial.html">Посібник</a>
+                <a href="https://uk.reactjs.org/blog/">Блог</a>
+                <a href="https://uk.reactjs.org/community/support.html">Спільнота</a>
+              </nav>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="header-table-cell-search">
+        <label for="name"></label>
+        <input id="name" name="userName" type="text" value="" class="header-input-search" placeholder="Пошук"/>
+      </div>
+      <div class="header-table-cell-secondary-nav">
+        <nav class="header-nav">
+          <a href="https://uk.reactjs.org/versions">v16.13.1</a>
+          <a href="https://uk.reactjs.org/languages">Переклади
+          </a>
+          <a href="https://github.com/facebook/react/">GitHub</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-main-info">
+    <h1 class="section-main-info-title">
+      React
+    </h1>
+    <p class="section-main-info-description">
+      JavaScript-бібліотека для створення користувацьких інтерфейсів
+    </p>
+    <div class="section-main-info-actions">
+      <button type="button" class="button-common">Початок роботи</button>
+      <a href="https://uk.reactjs.org/tutorial/tutorial.html" class="link-common">Перейти до посібника ></a>
+    </div>
+  </section>
+
+<!--  <section class="text-display-none">-->
+<!--    <button class="hide-info-button">show hide info</button>-->
+<!--    <div class="hide-info-content">-->
+<!--      Вам потрібно лише описати,-->
+<!--      як різні частини інтерфейсу виглядають у кожному стані вашого-->
+<!--      додатку і React ефективно-->
+<!--      оновить та відрендерить лише потрібні компоненти, коли ваші дані зміняться.-->
+<!--    </div>-->
+<!--    <div class="table">-->
+<!--      <div class="table-row">-->
+<!--        <div class="table-cell">-->
+<!--          Name-->
+<!--        </div>-->
+<!--        <div class="table-cell">-->
+<!--          price-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="table-row">-->
+<!--        <div class="table-cell">-->
+<!--          Serhii-->
+<!--        </div>-->
+<!--        <div class="table-cell">-->
+<!--          $100-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+
+<!--  <section class="float-example">-->
+<!--    <p>-->
+<!--      <img src="../img/mac-book.jpg" width="240" alt="mac book">-->
+<!--      Створюйте інкапсульовані компоненти, які керують власним станом, а з них будуйте складні інтерфейси.-->
+
+<!--      Оскільки логіка компонентів написана на JavaScript, замість шаблонів,-->
+<!--      ви з легкістю можете передавати складні дані у вашому додатку і зберігати стан окремо від DOM.-->
+<!--    </p>-->
+<!--  </section>-->
+
+  <article>
+    <section class="three-column-block clearfix">
+      <div class="three-column-block-column">
+        <h3 class="three-column-block-title">
+          Декларативний
+        </h3>
+        <p>
+          React спрощує створення інтерактивних <span class="intensive">інтерфейсів</span>.
+          Вам потрібно лише описати,
+          як різні частини інтерфейсу виглядають у кожному стані вашого
+          додатку і React ефективно
+          оновить та відрендерить лише потрібні компоненти, коли ваші дані зміняться.
+        </p>
+        <p>
+          Декларативні інтерфейси роблять ваш код більш передбачуваним і його
+          набагато легше налагоджувати.
+        </p>
+      </div>
+      <div class="three-column-block-column">
+        <h3 class="three-column-block-title">
+          Заснований на компонентах
+        </h3>
+        <p>
+          Створюйте інкапсульовані компоненти,
+          які керують власним станом, а з них будуйте складні інтерфейси.
+        </p>
+        <p>
+          Оскільки логіка компонентів написана на JavaScript, замість шаблонів, ви з легкістю можете
+          передавати складні дані у вашому додатку і зберігати стан окремо від DOM.
+        </p>
+      </div>
+      <div class="three-column-block-column">
+        <h3 class="three-column-block-title">
+          <img src="../img/mac-book.jpg" class="absolute-image" width="40px" alt="">
+          Вивчіть лише раз — пишіть будь-де
+        </h3>
+        <p>
+          Ми не робимо припущень щодо стеку технологій які ви використовуєте,
+          тому ви можете розробляти нові функції в React, не переписуючи існуючий код.
+        </p>
+        <p>
+          React також може рендеритись на сервері, використовуючи Node,
+          і приводити в дію мобільні додатки, які використовують <a href="https://reactnative.dev/">React Native</a>.
+        </p>
+      </div>
+    </section>
+
+    <div>
+      <section class="component-type clearfix">
+        <div class="component-type-column component-type-column-first">
+          <h3>
+            Простий компонент
+          </h3>
+          <p>
+            Компоненти реалізують метод <code class="gatsby-code-text">render()</code>, який приймає вхідні дані і повертає
+            те, що буде показано користувачу. У цьому прикладі використовується
+            XML-подібний синтаксис під назвою JSX. Доступ до вхідних даних,
+            які передаються в компонент, можна отримати за допомогою <code class="gatsby-code-text">render()</code>
+            та <code class="gatsby-code-text">this.props</code>.
+          </p>
+          <p>
+            <strong>JSX не є обов’язковим для React</strong>. Спробуйте
+            <a href="https://babeljs.io/repl/#?presets=react&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUAcjogQUcwEpeAJTjDgUACIB5ALLK6aRklTRBQ0KCohMQk6Bx4gA">Babel REPL</a>,
+            щоб побачити необроблений код JavaScript, створений на етапі компіляції JSX.
+          </p>
+        </div>
+        <div class="component-type-column component-type-column-second">
+          <img src="../img/mac-book.jpg" width="100%" alt="">
+        </div>
+      </section>
+        <section>
+          <div>
+            <h3>
+              Компонент зі станом
+            </h3>
+            <p>
+              У доповнення до прийняття вхідних даних (доступ до яких здійснюється через <code class="gatsby-code-text">this.props</code>),
+              компонент може зберігати дані внутрішнього стану (доступні через <code class="gatsby-code-text">this.state</code>).
+              Коли дані стану компонента змінюються,
+              відбувається повторне відрендерення розмітки з використанням функції render().
+            </p>
+          </div>
+          <div>
+            <img src="./photo_2563-09-05%2021.12.43.jpeg" alt="">
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3>
+              Застосування
+            </h3>
+            <p>
+              Використовуючи <code class="gatsby-code-text">пропси</code> і <code class="gatsby-code-text">стан</code>, ми можемо створити невеликий додаток
+              для складання списку справ. Цей приклад використовує <code class="gatsby-code-text">стан</code> для
+              відстеження поточного списку елементів, а також тексту, введеного користувачем.
+              Хоча обробники подій здаються вбудованими,
+              вони будуть зібрані та реалізовані за допомогою методу делегування подій.
+            </p>
+          </div>
+          <div>
+            <img src="./photo_2563-09-05%2021.12.26.jpeg" alt="">
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3>
+              <br>Компонент, що
+              <br>використовує
+              <br>зовнішні модулі
+            </h3>
+            <p>
+              React дозволяє взаємодіяти з іншими бібліотеками та фреймворками.
+              У цьому прикладі використана <strong>дивовижна</strong> зовнішня
+              бібліотека — Markdown, для зміни значення <code class="gatsby-code-text">< textarea ></code> в реальному часі.
+            </p>
+          </div>
+          <div>
+            <img src="./photo_2563-09-05%2020.07.07.jpeg" alt="">
+          </div>
+        </section>
+    </div>
+  </article >
+
+  <footer>
+    <div>
+      <button type="button" class="button-common">Початок роботи</button>
+      <a href="https://uk.reactjs.org/tutorial/tutorial.html">Перейти до посібника ></a>
+    </div>
+    <section class="footer-content clearfix">
+      <div class="footer-content-column">
+        <p>
+          <img src="https://scontent.fiev12-1.fna.fbcdn.net/v/t39.2365-6/36928189_848654351995829_1480739397484675072_n.png?_nc_cat=111&_nc_sid=ad8a9d&_nc_ohc=64ht5jZyQ0sAX_6hEAt&_nc_ht=scontent.fiev12-1.fna&oh=c58d68150dee28e3aaa4a27637ddfe33&oe=5F788462"
+               alt="" width="250" height="110">
+          <br> Facebook
+          <br>Open Source
+        </p>
+        <p>
+          Copyright © 2020 Facebook Inc.
+        </p>
+      </div>
+      <div class="footer-content-column">
+        <h4>
+          ДОКУМЕНТАЦІЯ
+        </h4>
+        <p>
+          <a href="https://uk.reactjs.org/docs/getting-started.html">Встановлення</a>
+        </p>
+        <p>
+          <a href="https://uk.reactjs.org/docs/hello-world.html">Просунуті теми</a>
+        </p>
+        <p>
+          <a href="https://uk.reactjs.org/docs/react-api.html">API-довідка</a>
+        </p>
+        <p>
+          <a href="https://uk.reactjs.org/docs/hooks-intro.html">Хуки</a>
+        </p>
+        <p>
+          <a href="https://uk.reactjs.org/docs/testing.html">Тестування</a>
+        </p>
+        <p>
+          <a href="https://uk.reactjs.org/docs/concurrent-mode-intro.html">Паралельний режим (Експериментальний)</a>
+        </p>
+        <p>
+          <a href="https://uk.reactjs.org/docs/how-to-contribute.html">Участь в проекті</a>
+        </p>
+        <p>
+          <a href="https://uk.reactjs.org/docs/faq-ajax.html">FAQ</a>
+        </p>
+      </div>
+      <div class="footer-content-column">
+        <h4>
+          КАНАЛИ
+        </h4>
+        <p>
+          <a href="https://github.com/facebook/react">Github</a>
+        </p>
+        <p>
+          <a href="https://stackoverflow.com/questions/tagged/reactjs">Stack Overflow</a>
+        </p>
+        <p>
+          <a href="https://reactjs.org/community/support.html#popular-discussion-forums">Форум</a>
+        </p>
+        <p>
+          <a href="https://discord.gg/reactiflux">Чат Reactiflux</a>
+        </p>
+        <p>
+          <a href="https://dev.to/t/react">Спільнота на DEV</a>
+        </p>
+        <p>
+          <a href="https://www.facebook.com/react">Facebook</a>
+        </p>
+        <p>
+          <a href="https://twitter.com/reactjs">Twitter</a>
+        </p>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
