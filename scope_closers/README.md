@@ -1,6 +1,6 @@
 ## Область видимости, поднятие переменных и замыкание.
 ### Scope, Hoisting and Closures
 
-- Область видимости (Scope)
+- [Область видимости (Scope)](scope.md)
 - [Поднятие переменных (Hoisting)](hoisting.md)
-- Замыкание (Closures)
+- [Замыкание (Closures)](closures.md)

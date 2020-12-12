@@ -1,10 +1,12 @@
-// function printSum(passedVariable) {
-//     console.log( passedVariable + globalVariable );
-// }
-//
-// var globalVariable = 10;
-//
-// printSum( 10 );
+/*
+function printSum(passedVariable) {
+    console.log( passedVariable + globalVariable );
+}
+
+var globalVariable = 10;
+
+printSum( 10 );
+ */
 
 
 function printSum(passedVariable) {
